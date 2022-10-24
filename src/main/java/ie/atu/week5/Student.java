@@ -10,6 +10,15 @@ public class Student {
         System.out.println("you entered :" + name);
 
 
+        System.out.println("Please enter Student email");
+        String email = input.nextLine();
+        System.out.println("you entered :" + email);
+
+        System.out.println("Please enter Name of course Studying");
+        String course = input.nextLine();
+        System.out.println("you entered :" + course);
+
+
 
 
 
