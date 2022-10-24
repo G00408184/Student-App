@@ -41,6 +41,25 @@ public class StudentApp {
         store.setCourse(course2);
         System.out.println("you entered :" + store.getCourse());
 
+        System.out.println("Please enter 3rd Students Name");
+        String name3 = input.nextLine();
+        store.setName(name3);
+        System.out.println("you entered :" + store.getName());
+
+
+        System.out.println("Please enter 3rd Students email");
+        String email3 = input.nextLine();
+        store.setEmail(email3);
+        System.out.println("you entered :" + store.getEmail());
+
+
+        System.out.println("Please enter Name of course Studying");
+        String course3 = input.nextLine();
+        store.setCourse(course3);
+        System.out.println("you entered :" + store.getCourse());
+
+
+
 
 
 

@@ -1,26 +1,31 @@
 package ie.atu.week5;
 
-import java.util.Scanner;
-
 public class Student {
-    public static void main(String[] args) {
-        System.out.println("Please enter Student Name");
-        Scanner input = new Scanner(System.in);
-        String name = input.nextLine();
-        System.out.println("you entered :" + name);
+    private String name;
+    private String email;
+    private String course;
 
+    public String getName() {
+        return name;
+    }
 
-        System.out.println("Please enter Student email");
-        String email = input.nextLine();
-        System.out.println("you entered :" + email);
+    public void setName(String name) {
+        this.name = name;
+    }
 
-        System.out.println("Please enter Name of course Studying");
-        String course = input.nextLine();
-        System.out.println("you entered :" + course);
+    public String getEmail() {
+        return email;
+    }
 
+    public void setEmail(String email) {
+        this.email = email;
+    }
 
+    public String getCourse() {
+        return course;
+    }
 
-
-
+    public void setCourse(String course) {
+        this.course = course;
     }
 }
